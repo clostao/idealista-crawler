@@ -7,6 +7,9 @@ import scrapy
 
 
 class CrawlidealistaItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
+    uid = scrapy.Field()
+    price = scrapy.Field()
+    size = scrapy.Field()
+    floor = scrapy.Field()
+    region = scrapy.Field()
     pass
