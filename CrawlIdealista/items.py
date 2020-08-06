@@ -5,8 +5,7 @@
 
 import scrapy
 
-
-class CrawlidealistaItem(scrapy.Item):
+class RealEstate(scrapy.Item):
     uid = scrapy.Field()
     price = scrapy.Field()
     size = scrapy.Field()

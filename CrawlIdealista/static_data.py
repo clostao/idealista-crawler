@@ -3,7 +3,7 @@ import os
 
 
 def get_provincies_link():
-    return (pd.read_csv(filepath_or_buffer="/root/home/idealista/scrapy/auxscrapy/spiders/provincias.csv")['provincies'])
+    return (pd.read_csv(filepath_or_buffer="/home/carlos/Documents/Scrapping/CrawlIdealista/CrawlIdealista/provincies.csv")['provincies'])
 
 def get_provincies(tipos):
     result = []
